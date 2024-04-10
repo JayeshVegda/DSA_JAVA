@@ -15,6 +15,7 @@ public class q1 {
         {
             System.out.println("Your Number is Negative");
         }
+        sc.close();
     }
     
 }

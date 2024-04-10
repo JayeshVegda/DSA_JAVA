@@ -2,7 +2,7 @@
 public class right_p {
     public static void main(String [] args){
         int line = 4;
-        char star = '*';
+        //char star = '*';
         for(int i = 1; i <= line; i++)
         {
             int space = line - i;
