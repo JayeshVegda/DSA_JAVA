@@ -4,7 +4,7 @@ Learning DSA and core Java at Apna College from Sharadha Didi in this repository
 <br>
 
 |No| Topic | Status | 
-| -- | -- | ---|
+| -------- | ------ | --------|
 |1 | Variable | ✅ |
 | 2| Operators |  ✅ |
 | 3| Conditional Statment | ✅ |
