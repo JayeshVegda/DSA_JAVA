@@ -1,9 +1,14 @@
 
 public class bubble {
     public static void sort(int listo[]){
+        int inner = 0;
+        int outer = 0;
+        // outer loop 
         for(int turn = 0; turn<listo.length-1; turn++){
+            outer = outer + 1;
             for(int j=0; j<listo.length-1-turn; j++){
-
+                inner = inner + 1;
+                // inside loop
                 //swap it
                 if(listo[j] > listo[j+1])
                 {
@@ -12,7 +17,11 @@ public class bubble {
                     listo[j+1] = temp;
                 }
             }
+
         }
+
+        System.out.println(inner);
+        System.out.println(outer);
     }   
 
     public static void printarr(int arr[]){
