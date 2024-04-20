@@ -1,40 +1,25 @@
-import java.util.HashSet;
-
-class Solution {
-    public static int uniqueMorseRepresentations(String[] words) 
-    {
-        int list_len = words.length;
-          String morse[] = {".-","-...","-.-.","-..",".","..-.","--.","....","..",".---","-.-",".-..","--","-.","---",".--.","--.-",".-.","...","-","..-","...-",".--","-..-","-.--","--.."};
-          String demo[] = new String[list_len];
-          HashSet<String> set = new HashSet<>();
-          int counter = 0;
-          
-          
-          for(int i = 0; i<list_len; i++)
-          {
-              for(int j = 0; j<words[i].length(); j++)
-              {
-                  Character m = words[i].charAt(j);
-                  int myindex = m - 'a';
-                  demo[i] = demo[i] + morse[myindex]; 
-              }
-          }
+public class Solution {
+    public static String[] findWords(String[] words) {
+        String sr = "asdfghjkl";
+        String tr = "zxcvbnm";
+        String fr = "qwertyuiop";
+        char[] csr = sr.toCharArray();
+        char[] ctr = tr.toCharArray();
+        char[] cfr = fr.toCharArray();
+        int n = words.length;        
+        int count = 0;
 
 
-          
-            for (String element : demo) {
-                set.add(element);
+            for (String string : words) 
+            {
+                
+             
             }
-    
-          return set.size();
+        
+        return words;
     }
-    
-
-    public static void main(String [] arfs){
-  //          Character c = 'b'; 
-  //            System.out.println(c - 'a');
-        String words[] = {"rwjje","aittjje","auyyn","lqtktn","lmjwn"};
-        System.out.println(uniqueMorseRepresentations(words));
+    public static void main(String [] args){
+        String words[] = {"Hello","Alaska","Dad","Peace"};
+        findWords(words);
     }
-    
 }
