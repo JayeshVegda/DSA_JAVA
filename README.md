@@ -14,4 +14,4 @@ Learning DSA and core Java at Apna College from Sharadha Didi in this repository
 | 7 | Pattern (II) | ✅ |
 | 8 | Array | 🟨 |
 | 9 | Basic Sorting Algorith | 🟥 |
-
+| 10| 2D ARRAY | ✓ |
