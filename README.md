@@ -18,5 +18,6 @@ Learning DSA and core Java at Apna College from Sharadha Didi in this repository
 | 11 | String | ✅ |
 | 12 | Bit Manipulation | 💢  |
 | 13 | Oops | ✅|
-| 14 | Recursion | ✅|
-| 15 | Divide and Conquer | ⚒️|
+| 14 | Recursion | 💢  |
+| 15 | Divide and Conquer | ✅|
+| 16 | Time and Space | ⚒️|
