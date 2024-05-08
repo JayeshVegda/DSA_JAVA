@@ -8,7 +8,7 @@
     * Let's visualize the call stack as each recursive call happens:
 </br>
 </br>
-# Call Stake
+# 3. Call Stake
 
 | Call Stack                 | Execution                         |
 |------------------|--------------------------|
@@ -19,8 +19,8 @@
 | hello(1)                   | n = 1                             |
 | hello(0)                   | n = 0, returns                    |
 </br>
-As hello(0) returns immediately without printing anything, the recursion ends.</br>
-The call stack then starts unwinding:</br>
+4. As hello(0) returns immediately without printing anything, the recursion ends.</br>
+5. The call stack then starts unwinding:</br>
 
 * hello(0) returns to hello(1)
 * hello(1) returns to hello(2)
@@ -28,4 +28,4 @@ The call stack then starts unwinding:</br>
 * hello(3) returns to hello(4)
 * hello(4) returns to hello(5) 
 
-Once the initial call to hello(5) returns, the program execution completes.
+6. Once the initial call to hello(5) returns, the program execution completes.
