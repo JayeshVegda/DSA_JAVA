@@ -1,28 +1,22 @@
+import java.lang.reflect.Array;
 import java.util.Arrays;
 
 class Solution {
-    public static String sortSentence(String s) {
-        String arr[] = s.split(" ");
-        String myarr[] = new String[s.length()];
-        StringBuilder str = new StringBuilder();
-        int n = arr.length;
-
-        for(int i = 0; i<n; i++){
-            int last = arr[i].length() - 1;
-            int digit = arr[i].charAt(last) - 49;
-            System.out.println(digit);
-            myarr[digit] = arr[i];
+    public static boolean containsDuplicate(int[] nums) {
+        int n = nums.length;
+        Arrays.sort(nums);
+        for(int i = 0; i<n-1; i++){
+            if(nums[i] == nums[i+1]){
+                return true;
+            }
         }
 
-        for(int i = 0; i<n; i++){
-            str.append(myarr[i]);
-        }
-        return str.toString().replaceAll("[0-9]", " ").trim();
+
+        return false;
     }
 
     public static void main(String[] args) {
-        String s = "is2 sentence4 This1 a3";
-
-        System.out.println(sortSentence(s));
+        int[] arr = {1,2,4,5,6,7,8,5,5};
+        System.out.println(containsDuplicate(arr));
     }
 }
