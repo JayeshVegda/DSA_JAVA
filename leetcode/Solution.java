@@ -1,22 +1,23 @@
-import java.lang.reflect.Array;
-import java.util.Arrays;
-
 class Solution {
-    public static boolean containsDuplicate(int[] nums) {
-        int n = nums.length;
-        Arrays.sort(nums);
-        for(int i = 0; i<n-1; i++){
-            if(nums[i] == nums[i+1]){
-                return true;
+    public static int percentageLetter(String[] s) {
+        int counter = 0;
+        for(String x : s){
+            int o = x.charAt(11) - 48;
+            int t = x.charAt(12) - 48;
+            int age = o *10 + t;
+            System.out.println(age);
+            if(age > 60){
+                counter++;
             }
+
         }
 
-
-        return false;
+        return counter;
+        
     }
 
     public static void main(String[] args) {
-        int[] arr = {1,2,4,5,6,7,8,5,5};
-        System.out.println(containsDuplicate(arr));
+        String[] s = {"7868190130M7522","5303914400F9211","9273338290F4010"};
+        System.out.println(percentageLetter(s));
     }
 }
