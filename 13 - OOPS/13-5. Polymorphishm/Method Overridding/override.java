@@ -1,8 +1,7 @@
 public class override {
     public static void main(String[] args) {
         Car c = new Car();
-        Porsche p = new Porsche();
-
+        Porsche p = new Porsche(); 
         p.price();
         c.price();
 
