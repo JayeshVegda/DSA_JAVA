@@ -1,18 +1,38 @@
-public class tcsion {
-    public static void main(String[] args) {
-        String sc = "JayeshVegda";
-        StringBuilder sco = new StringBuilder(); 
-        int n = sc.length();
-        for(int i =0; i<n; i++)
-        {
-          char curr = sc.charAt(i);
-          for(int j = i; j<n; j++){
-            if(curr != sc.charAt(j)){
-                sco.append(j);
-            }
-          }
-        }
+class Solution {
+  public static int maxArea(int[] height) {
+      // int n = height.length;
+      // int max = 0;
+      // for(int i = 0; i<n; i++){
+      //   for(int j = i + 1; j<n; j++){
+      //     int high = Math.min(height[i], height[j]);
+      //     int wid = j - i;
+      //     int area = high * wid;
 
-        System.out.println(sco.toString());
-    }
+      //     max = Math.max(max, area);
+      //   }
+      // }
+
+      
+
+
+      int n = height.length;
+      int left_pointer = 0;
+      int right_pointer = n - 1;
+      int max = 0;
+      while (left_pointer < right_pointer) {
+        int high = Math.min(height[left_pointer], height[right_pointer]);
+        int wid = left_pointer - right_pointer;
+        int area = high * wid;
+        max = Math.max(max, area);
+
+        if(height[left_pointer] < height[right_pointer] ){
+          left_pointer++;
+        }else{
+          right_pointer--;
+        }
+      }
+
+
+      return max;
+  }
 }

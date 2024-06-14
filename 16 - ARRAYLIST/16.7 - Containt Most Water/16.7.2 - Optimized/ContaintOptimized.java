@@ -20,6 +20,7 @@ public class ContaintOptimized{
                 right_pointer--;
             }
         }
+        
         return max;
     }
     public static void main(String[] args) {
