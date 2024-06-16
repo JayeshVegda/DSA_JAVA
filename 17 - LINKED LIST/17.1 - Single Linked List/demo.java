@@ -222,6 +222,17 @@ class demos {
         System.out.println(sum);
     }
 
+    public int findmid(){
+
+        Node slow = head;
+        Node fast = head;
+
+        while (fast.next != null && fast.next.next != null) {
+            slow = slow.next;
+            fast = fast.next.next;
+        }
+        return slow.value;
+    }
 
     public void display()
     {
@@ -245,6 +256,14 @@ public class demo {
         ds.addFirst(1);
         ds.addlast(2);
         ds.addlast(3);
+        ds.addlast(4);
+        ds.addlast(5);
+        ds.addlast(6);
+        ds.addlast(7);
+        ds.addlast(8);
+        ds.addlast(9);
+        ds.addlast(10);
+        ds.addlast(11);
         // ds.addlast(4);
         // ds.addlast(5111);
         // ds.addlast(6);
@@ -261,7 +280,7 @@ public class demo {
         // ds.replacebyvalue(43, 11);
         // ds.replacebyidx(31, 2);
         ds.display();
-     
+        System.out.println(ds.findmid());
         
         // for(int i = 0; i<n; i++)
         // {
