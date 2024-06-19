@@ -253,48 +253,7 @@ class demos {
 public class demo {
     public static void main(String[] args) {
         demos ds = new demos();
-        ds.addFirst(1);
-        ds.addlast(2);
-        ds.addlast(3);
-        ds.addlast(4);
-        ds.addlast(5);
-        ds.addlast(6);
-        ds.addlast(7);
-        ds.addlast(8);
-        ds.addlast(9);
-        ds.addlast(10);
-        ds.addlast(11);
-        // ds.addlast(4);
-        // ds.addlast(5111);
-        // ds.addlast(6);
-        // ds.addlast(7);
-        // ds.addlast(8);
-        // ds.addlast(9);
-        // ds.addlast(10);
-        // ds.addlast(100);
-        // ds.addlast(1000);
-        // ds.deletevalue(10);
-        ds.display();
-        // ds.searchbyindex(4);
-        //System.out.println(ds.searchbyvalue(1000));
-        // ds.replacebyvalue(43, 11);
-        // ds.replacebyidx(31, 2);
-        ds.display();
-        System.out.println(ds.findmid());
-        
-        // for(int i = 0; i<n; i++)
-        // {
-        //     if(i%2 == 0){
-
-        //         int my = ds.searchbyindex(i);
-        //         total = total + my;
-        //     }
-        // }
-        ds.findodd();
-        // System.out.println("Total Sum of Odd Number : " + total);
-        
-        // System.out.println(ds.mysize());
-
+        ds.addFirst(0);
     }
     
 }
