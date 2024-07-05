@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/8-1. Declaretion of Array" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/8-10. Tapping Water (M)" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/8-11. Buy and Stoke" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/8-2. Input, Update, Delete" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/8-3. Leaner Search" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/8-4. Largest And Smallest" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/8-5.Binary Search" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/8-6. Reverse Array" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/8-7. Pairs Array" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/8-8. Sub Array" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/8-9. Prefix Sum Array" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

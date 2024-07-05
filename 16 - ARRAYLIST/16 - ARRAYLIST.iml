@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/16.1 - Reverse List" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/16.2 - Find Max" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/16.3 - Find Min" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/16.4 - Swap Two" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/16.5 - Sorting" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/16.6 - Multi Array" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

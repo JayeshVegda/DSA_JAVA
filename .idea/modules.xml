@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/01 - VARIABLES &amp; DATA TYPES/01 - VARIABLES &amp; DATA TYPES.iml" filepath="$PROJECT_DIR$/01 - VARIABLES &amp; DATA TYPES/01 - VARIABLES &amp; DATA TYPES.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02 - OPERATORS/02 - OPERATORS.iml" filepath="$PROJECT_DIR$/02 - OPERATORS/02 - OPERATORS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03 - CONDITIONAL STATEMENTS/03 - CONDITIONAL STATEMENTS.iml" filepath="$PROJECT_DIR$/03 - CONDITIONAL STATEMENTS/03 - CONDITIONAL STATEMENTS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04 - LOOP/04 - LOOP.iml" filepath="$PROJECT_DIR$/04 - LOOP/04 - LOOP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/05 - PATTERN/05 - PATTERN.iml" filepath="$PROJECT_DIR$/05 - PATTERN/05 - PATTERN.iml" />
+      <module fileurl="file://$PROJECT_DIR$/06 - FUNCATION/06 - FUNCATION.iml" filepath="$PROJECT_DIR$/06 - FUNCATION/06 - FUNCATION.iml" />
+      <module fileurl="file://$PROJECT_DIR$/07 - PATTERN (PART 2)/07 - PATTERN (PART 2).iml" filepath="$PROJECT_DIR$/07 - PATTERN (PART 2)/07 - PATTERN (PART 2).iml" />
+      <module fileurl="file://$PROJECT_DIR$/08 - ARRAY/08 - ARRAY.iml" filepath="$PROJECT_DIR$/08 - ARRAY/08 - ARRAY.iml" />
+      <module fileurl="file://$PROJECT_DIR$/09 - Basic Sorting Algorithm/09 - Basic Sorting Algorithm.iml" filepath="$PROJECT_DIR$/09 - Basic Sorting Algorithm/09 - Basic Sorting Algorithm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/10 - 2D ARRAYS/10 - 2D ARRAYS.iml" filepath="$PROJECT_DIR$/10 - 2D ARRAYS/10 - 2D ARRAYS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/11 - String/11 - String.iml" filepath="$PROJECT_DIR$/11 - String/11 - String.iml" />
+      <module fileurl="file://$PROJECT_DIR$/13 - OOPS/13 - OOPS.iml" filepath="$PROJECT_DIR$/13 - OOPS/13 - OOPS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/13 - OOPS/13-4. Inheritance/13-4. Inheritance.iml" filepath="$PROJECT_DIR$/13 - OOPS/13-4. Inheritance/13-4. Inheritance.iml" />
+      <module fileurl="file://$PROJECT_DIR$/13 - OOPS/13-5. Polymorphishm/13-5. Polymorphishm.iml" filepath="$PROJECT_DIR$/13 - OOPS/13-5. Polymorphishm/13-5. Polymorphishm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/14 - RECURSION/14 - RECURSION.iml" filepath="$PROJECT_DIR$/14 - RECURSION/14 - RECURSION.iml" />
+      <module fileurl="file://$PROJECT_DIR$/15 -  Divide and Conquer/15 -  Divide and Conquer.iml" filepath="$PROJECT_DIR$/15 -  Divide and Conquer/15 -  Divide and Conquer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/16 - ARRAYLIST/16 - ARRAYLIST.iml" filepath="$PROJECT_DIR$/16 - ARRAYLIST/16 - ARRAYLIST.iml" />
+      <module fileurl="file://$PROJECT_DIR$/16 - ARRAYLIST/16.7 - Containt Most Water/16.7 - Containt Most Water.iml" filepath="$PROJECT_DIR$/16 - ARRAYLIST/16.7 - Containt Most Water/16.7 - Containt Most Water.iml" />
+      <module fileurl="file://$PROJECT_DIR$/16 - ARRAYLIST/16.8 - Pair Sum 1 (Sorted)/16.8 - Pair Sum 1 (Sorted).iml" filepath="$PROJECT_DIR$/16 - ARRAYLIST/16.8 - Pair Sum 1 (Sorted)/16.8 - Pair Sum 1 (Sorted).iml" />
+      <module fileurl="file://$PROJECT_DIR$/16 - ARRAYLIST/16.9 - Pair Sum 2 (Rotated)/16.9 - Pair Sum 2 (Rotated).iml" filepath="$PROJECT_DIR$/16 - ARRAYLIST/16.9 - Pair Sum 2 (Rotated)/16.9 - Pair Sum 2 (Rotated).iml" />
+      <module fileurl="file://$PROJECT_DIR$/17 - LINKED LIST/17 - LINKED LIST.iml" filepath="$PROJECT_DIR$/17 - LINKED LIST/17 - LINKED LIST.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DSA_JAVA.iml" filepath="$PROJECT_DIR$/DSA_JAVA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/08 - ARRAY/QUESTION/QUESTION.iml" filepath="$PROJECT_DIR$/08 - ARRAY/QUESTION/QUESTION.iml" />
+      <module fileurl="file://$PROJECT_DIR$/06 - FUNCATION/QUESTION/QUESTION1.iml" filepath="$PROJECT_DIR$/06 - FUNCATION/QUESTION/QUESTION1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/14 - RECURSION/QUESTION/QUESTION2.iml" filepath="$PROJECT_DIR$/14 - RECURSION/QUESTION/QUESTION2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/01 - VARIABLES &amp; DATA TYPES/QUESTIONS/QUESTIONS.iml" filepath="$PROJECT_DIR$/01 - VARIABLES &amp; DATA TYPES/QUESTIONS/QUESTIONS.iml" />
+    </modules>
+  </component>
+</project>
