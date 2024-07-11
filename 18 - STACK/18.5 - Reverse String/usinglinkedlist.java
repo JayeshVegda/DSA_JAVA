@@ -95,9 +95,7 @@ public class usinglinkedlist {
             return reversedStr.toString();
         }
     }
-        
-
-
+  
     public static void main(String[] args) {
         Stack sc = new Stack();
         sc.push(2);        

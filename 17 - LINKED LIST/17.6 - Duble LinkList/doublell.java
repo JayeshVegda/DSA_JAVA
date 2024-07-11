@@ -36,7 +36,6 @@ public class doublell {
             return Integer.MIN_VALUE;
         }
 
-        
         int val = head.data;
         head = head.next;
         head.prev = null;
@@ -46,9 +45,48 @@ public class doublell {
         return val;
     }
 
+    public void addlast(int data){
+        Node newNode = new Node(data);
 
+        size++;
+        if(head == null){
+            head = tail = newNode;
+        }
+
+        newNode.prev = tail;
+        tail.next = newNode;
+        tail = newNode;
+    }
+
+    public void print(){
+
+        Node temp = head;
+
+        while(temp != null){
+            System.out.print(temp.data + " - ");
+            temp = temp.next;
+        }
+        System.out.println();
+    }
+    public void reverse(){
+        Node temp = tail;
+        while(temp != null){
+            System.out.print(temp.data + " - ");
+            temp = temp.prev;
+        }
+
+
+    }
     public static void main(String[] args) {
         doublell dll = new doublell();
+        dll.addfirst(4);
+        dll.addlast(22);
+        dll.addfirst(2);
+        dll.addlast(22);
+        dll.addfirst(1);
+        dll.addfirst(0);
+        dll.print();
+        dll.reverse();
 
     }
 }
