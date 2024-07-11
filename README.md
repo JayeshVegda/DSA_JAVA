@@ -21,3 +21,7 @@ Learning DSA and core Java at Apna College from Sharadha Didi in this repository
 | 14 | Recursion | 💢  |
 | 15 | Divide and Conquer | ✅|
 | 16 | Time and Space | ⚒️|
+| 17 | Arry List | ✅ |
+| 18 | Linked List | ✅ | 
+| 19 | Stack | 🟨 |
+| 20 | Queue | 🟨 |
