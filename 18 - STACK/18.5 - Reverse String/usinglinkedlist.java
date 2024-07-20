@@ -96,7 +96,7 @@ public class usinglinkedlist {
         }
     }
   
-    public static void main(String[] args) {
+    public static void main(String[] aradda) {
         Stack sc = new Stack();
         sc.push(2);        
         sc.push(3);        
