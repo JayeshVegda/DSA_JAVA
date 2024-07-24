@@ -5,11 +5,11 @@ import javax.xml.validation.Validator;
 
 public class frank {
     public static void main(String[] args) {
-        int value[] = {60, 100, 120};
-        int weigth[] = {10,20,30};
-        int w = 50;
+            int value[] = {60, 100, 120};
+            int weigth[] = {10,20,30};
+            int w = 50;
 
-        double ratio[][] = new double[value.length][2];
+            double ratio[][] = new double[value.length][2];
         //0th index -> Index | 1st ->  Ratio 
 
         //Setting up the 2d arrat | Feeling the array
@@ -29,7 +29,7 @@ public class frank {
             if(cap >=  weigth[idx]){
                 max = max + value[idx];
                 cap = cap - weigth[idx];
-            }else{
+            }else{  
                 max += (ratio[i][1] * cap);
                 cap = 0;
                 break;
