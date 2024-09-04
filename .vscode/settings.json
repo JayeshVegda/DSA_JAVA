@@ -1,10 +1,11 @@
 {
     "java.debug.settings.onBuildFailureProceed": true,
     "java.project.sourcePaths": [
+        "21 - BINARY TREE/Reivse",
         "21 - BINARY TREE/21.1 - Pre Order",
         "20 - GREEDY ALGO/20-3. Survive on Island",
         "20 - GREEDY ALGO/20-2. CANDY SHOP",
         "20 - GREEDY ALGO/20-1. ACTIVITY SELECTION",
-        "21 - BINARY TREE/Reivse"
+        "21 - BINARY TREE/21.7 - Sub Tree Sum"
     ]
 }
